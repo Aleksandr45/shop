@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Александр Долинский">  
+    <title>Мёд и продукты пчеловодства, как и где купить. Контактная информация</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
+    <link href="assets/libs/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/libs/css/modern-business.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet"> 
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Иван Константинов</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Обо мне</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Блог</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="delivery.html">Доставка</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">Контакты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Корзина <i class="fas fa-shopping-cart"></i>                    
+                    </a>
+                </li>               
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+<h1 class="mt-4 mb-3">Контакты</h1>
+        <hr>
+        <div class="row">
+            <div class="col-lg-8 mb-4">
+                <div id="map" style="height: 100%; width: 100%;"></div>
+            </div>
+            <div class="col-lg-4 mb-4" itemscope itemtype="http://schema.org/Organization">
+                <h3>Контактная информация</h3>
+                <p></p>
+                <p>
+                    <b itemprop="name">Предприниматель: Иван Константинов</b>
+                </p>
+                <p itemprop="address">
+                    Вета Почтовая — село, в Святошинском районе на Киевской области Украины, ул. Садова, дом 15-ый.
+                </p>
+                <p>
+                    <i class="fas fa-phone"></i> <span itemprop="telephone">+38(095) 188 - 62 - 47</span>
+                </p>
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:info@example.gameil"><span itemprop="email">info@example.com</span>
+                    </a>
+                </p>
+                <p>
+                    <i class="fas fa-link"></i>
+                    <a href="http://example.com" itemprop="url">http://example.com</a>
+                </p>
+                <p>
+                    <i class="fab fa-facebook-f" style="margin-right: 7px;"></i>
+                    <a href="https://www.facebook.com/vii7111" itemprop="sameAs">https://www.facebook.com/vii7111</a>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mb-4">
+                <h3>Написать сообщение</h3>
+                <form name="sentMessage" id="contactForm" action="/feedback/" method="post">
+                    <input type='hidden' name='csrfmiddlewaretoken' value='XwKbCNwZzfo7bGO2LecYIBk1RPFfuApY' />
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Имя:</label>
+                            <input type="text" class="form-control" name="name" required>
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Телефон:</label>
+                            <input type="tel" class="form-control" name="phone" required>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email:</label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Сообщение:</label>
+                            <textarea rows="10" cols="100" class="form-control" name="message" required maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<footer class="footer py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Все права защищены</p>
+    </div>
+</footer>
+<script src="assets/libs/js/jquery.min.js"></script>
+<script src="assets/libs/js/popper.min.js"></script>
+<script src="assets/libs/js/bootstrap.min.js"></script>
+<script src="assets/libs/js/scroll.js"></script>
+<script src="assets/js/initMap.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsQHtBSQK3PfOR6fD9a2bXfH1rG0T_280&callback=initMap" async defer></script>
+</body>
+</html>
